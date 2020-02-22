@@ -1,0 +1,11 @@
+# Brain Tumor Classification Webapp
+Throughout the developing world, there is a distinct lack of access to quality radiologists who can effectively diagnose brain tumors. Despite this, there have been recent efforts to push MRI technology into the developing world. Without proper training, however, doctors can misdiagnose their patients and potentially lead to life-threatening situations. As a result, we are left with a disparity in the availability of MRI technology and the availability of trained professionals. In Kenya, for example, there are only 200 radiologists in a country of 43 million people. To put this number into persepective, Boston, a city with a population of 685 thousand people, has 126 radiologists. Clearly, we need to solve for this lack of radiologists in order to minimize deaths from brain cancer.
+
+Our solution to this is a Convolutional Neural Network that is capable of quickly and accurately determining whether a patient has a brain tumor using only the picture of an MRI scan. We were able to achieve a test accuracy of 100% and a validation accuracy of 97%. With this level of accuracy, we will be able to quickly and easily diagnose patients and therefore make high-quality diagnoses more accessible for people in developing countries. Not only that, but this solution is universal since it is hosted on a website, which makes it useful to doctors in first-world countries as well. Studies find that up to 20% of all cancer cases are misdiagnosed, meaning that even experienced doctors in first-world countries are liable to make mistakes. Having this tool at their disposal would give them a sort of safety net to ensure that they don't make a misdiagnosis, and it would also make them feel more confident about their own diagnoses.
+
+![This is our Model's Test Accuracy](https://cdn.discordapp.com/attachments/655973923497836577/679866030709145708/unknown.png)
+This is our Model's Test Accuracy.
+![This is our Model's Validation Accuracy](https://cdn.discordapp.com/attachments/655973923497836577/679865856636747828/unknown.png)
+This is our Model's Validation Accuracy.
+![These are graphs of our Model's error and accuracy as it trained over time](https://cdn.discordapp.com/attachments/655973923497836577/679865741662617709/unknown.png)
+These are graphs of our Model's error and accuracy as it trained over time.
